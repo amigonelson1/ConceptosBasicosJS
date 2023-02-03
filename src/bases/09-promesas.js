@@ -28,4 +28,5 @@ const getHerorByIDAsync = (id) => {
 
 getHerorByIDAsync(1)
     .then(console.log) // se puede hacer colocando la funcion directamente y en automatico se ingresa el primer argumento
-    .catch(err => console.log(err));;
+    .catch(err => console.log(err));
+    

@@ -1,3 +1,6 @@
+Este repositorio esta hecho con el fin de hacer un repaso de todo lo relacionado con Reactjs
+agregando conceptos básicos de javascript para ir entendiendo paso a paso.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

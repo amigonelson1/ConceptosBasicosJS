@@ -16,7 +16,7 @@ console.log(persona.nombre);// forma comun de extraer el dato
 console.log(nombre, nombreArreglo);
 
 //desestructurando en funciones
-const getUser = ({ apellido, edad }) => {
+const usecontext = ({ apellido, edad }) => {
     return {
         apellidoExtraido: apellido,
         edadExtraida: edad,
@@ -27,7 +27,7 @@ const getUser = ({ apellido, edad }) => {
     }
 };
 
-console.log(getUser(persona));
+console.log(usecontext(persona));
 
-const { apellidoExtraido, ubicacion: { lat } } = getUser(persona);
+const { apellidoExtraido, ubicacion: { lat } } = usecontext(persona);
 console.log(apellidoExtraido, lat);
